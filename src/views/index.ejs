@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+    <%- include('partials/head'); %>
+  </head>
+  <body>
+    <!--Nav-->
+    <%- include('partials/nav.ejs'); %>
+
+    <!--Content-->
+    <div class="container">
+      <header class="row justify-content-center">
+        <div class="col-lg-7 pt-4 pb-4">
+          <img src="/img/workart.svg" alt="Art Work" />
+        </div>
+      </header>
+    </div>
+
+    <!--Section 1-->
+    <div class="container-fluid" id="about">
+      <div class="row px-5 py-2 text-center bg-dark text-white align-items-center">
+        <div class="col-sm-6 py-3">
+          <span class="icon-instagram display-4"></span>
+        </div>
+        <div class="col-sm-6 py-3">
+          <h2>Liebe</h2>
+          <br />
+          <p>The following illustrations are made with much love for you</p>
+          <a class="text-white" href="https://www.instagram.com/yuyo_illustration/" target="_blank">@yuyo_illustration</a>
+        </div>
+      </div>
+    </div>
+
+    <!--Section 2-->
+    <div class="container mt-5">
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="/img/butterfly.jpg" class="card-img-top" alt="Butterfly" />
+            <div class="card-body">
+              <h3 class="card-title">Butterfly</h3>
+              <p class="card-text">
+                It is an illustration that reflects the unique beauty of butterflies. It shows the vivid and wonderful colors that
+                nature allows us to observe.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="/img/gold_rose.jpg" class="card-img-top" alt="Rose gold" />
+            <div class="card-body">
+              <h3 class="card-title">Rose Gold</h3>
+              <p class="card-text">The most beautiful thing in life is knowing that you can share all the love you have with the rest of the people.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="/img/jay.jpg" class="card-img-top" alt="Jay" />
+            <div class="card-body">
+              <h3 class="card-title">Jay</h3>
+              <p class="card-text">
+                The only thing more difficult about illustrations is trying to represent the beauty of nature.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="/img/rose.jpg" class="card-img-top" alt="Rose" />
+            <div class="card-body">
+              <h3 class="card-title">Rose</h3>
+              <p class="card-text">
+                The beauty of roses is like the beauty of people, unique and wonderful.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="/img/stars.jpg" class="card-img-top" alt="Stars" />
+            <div class="card-body">
+              <h3 class="card-title">Stars</h3>
+              <p class="card-text">This illustration lets us know how privileged we are to be able to observe the moon and the stars.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="/img/dog.jpg" class="card-img-top" alt="Young, wild and free" />
+            <div class="card-body">
+              <h3 class="card-title">Young, wild and free</h3>
+              <p class="card-text">This illustration represents the free and unique nature that we can all have.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <%- include('partials/footer.ejs'); %>
+  </body>
+</html>
