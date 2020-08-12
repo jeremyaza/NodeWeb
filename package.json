@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "Art",
-=======
-  "name": "art",
->>>>>>> cd1d532d7775ee8ec3923d480a5572a2fe172c0f
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
