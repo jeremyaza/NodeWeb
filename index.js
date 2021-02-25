@@ -4,14 +4,14 @@ const path = require("path");
 
 //Settings
 app.set("port", 3000);
-app.set("views", path.join(__dirname, "views"));
+app.set("views", path.join(__dirname, "src/views"));
 app.set("view engine", "ejs");
 
 //Routers
-app.use(require("./routes/route"));
+app.use(require("./src/routes/route"));
 
 //Static files
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "src/public")));
 
 //Listening the server
 app.listen(app.get("port"), () => {
