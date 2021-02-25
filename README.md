@@ -4,12 +4,6 @@ Esta es una sitio web simple, donde pongo en práctica express, node.js, morgan,
 
 ![](doc/screenshot.png)
 
-## Live Application URL ✨
-
-The Application is deployed in 
-
-Click on the link to see the web
-
 ## Cloning and Running the Application in local 🔮
 
 Clone the project into local
